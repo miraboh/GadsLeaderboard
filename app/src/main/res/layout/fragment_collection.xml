@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
@@ -14,6 +15,11 @@
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tab_layout"
+            app:tabTextColor="#85FFFFFF"
+            app:tabIndicatorHeight="5dp"
+            app:tabIndicatorGravity="bottom"
+            app:tabSelectedTextColor="@color/colorAccent"
+            android:background="@color/colorPrimary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
