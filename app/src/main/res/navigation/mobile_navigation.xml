@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="">
+
+
+    <fragment
+        android:id="@+id/collectionFragment"
+        android:name="com.myrabohuche.gadsleaderboard.CollectionFragment"
+        android:label="CollectionFragment" />
+    <fragment
+        android:id="@+id/learningFragment"
+        android:name="com.myrabohuche.gadsleaderboard.LearningFragment"
+        android:label="learning_fragment"
+        tools:layout="@layout/learning_fragment" />
+    <fragment
+        android:id="@+id/skillIQFragment"
+        android:name="com.myrabohuche.gadsleaderboard.SkillIQFragment"
+        android:label="skill_i_q_fragment"
+        tools:layout="@layout/skill_i_q_fragment" />
+</navigation>
