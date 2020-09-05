@@ -44,6 +44,7 @@ class LearningFragment : Fragment() {
                     is State.Success -> {
                         it.apply {
                             Toast.makeText(context,"$it",Toast.LENGTH_LONG).show()
+                            binding.txt.text = it.toString()
                             //binding.groupLoading.visibility = View.GONE
                             //adapter.submitList(it.data)
                         }
